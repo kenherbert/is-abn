@@ -8,7 +8,7 @@ Just download and include via script.
 
 ## Browser Compatibility
 - Chrome 5+
-- FF3+
+- Firefox 3+
 - IE9+/Edge
 - Opera 10.50+
 - Safari 4.0.5+
