@@ -19,7 +19,7 @@
     "build": "npm run minify && npm run build:plain",
     "build:plain": "cp src/*.js dist/",
     "jscs": "jscs src/*.js",
-    "minify": "minify src/*.js > dist/*.min.js",
+    "minify": "minify src/is-abn.js > dist/is-abn.min.js",
     "test": "npm run jscs",
     "posttest": "npm run build"
   }
