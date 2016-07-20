@@ -16,7 +16,7 @@
     "minify": "latest"
   },
   "scripts": {
-    "build": "rm -r dist && mkdir dist && npm run minify && npm run build:plain",
+    "build": "npm run minify && npm run build:plain",
     "build:plain": "cp src/*.js dist/",
     "jscs": "jscs src/*.js",
     "minify": "minify src/*.js dist/*.min.js",
