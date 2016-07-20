@@ -10,5 +10,8 @@
     "url": "https://github.com/thefallofbecause/is-abn.git"
   },
   "license": "MIT",
-  "main": "src/is-abn.js"
+  "main": "src/is-abn.js",
+  "scripts": {
+    "jscs": "jscs src/*.js"
+  }
 }
