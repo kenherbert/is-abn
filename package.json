@@ -12,10 +12,15 @@
   "license": "MIT",
   "main": "src/is-abn.js",
   "devDependencies": {
-    "jscs": "latest"
+    "jscs": "latest",
+    "minify": "latest"
   },
   "scripts": {
+    "build": "npm run minify && npm run build:plain",
+    "build:plain": "cp src/*.js dist/",
     "jscs": "jscs src/*.js",
-    "test": "npm run jscs"
+    "minify": "minify src/*.js dist/*.min.js",
+    "test": "npm run jscs",
+    "posttest": "npm run build"
   }
 }
