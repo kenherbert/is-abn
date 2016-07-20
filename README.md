@@ -1,4 +1,5 @@
 # is-abn
+[![Build Status](https://travis-ci.org/thefallofbecause/is-abn.svg?branch=master)](https://travis-ci.org/thefallofbecause/is-abn)
 
 Validation for Australian Business Numbers.
 
