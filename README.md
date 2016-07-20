@@ -16,13 +16,10 @@ is-abn supports use from both the browser and as a node module. In either case j
 ## Future Todo
 - Support older browsers
 - Add unit tests
-- Add JSCS style guide
 - Build/minify source
 
 ## Contributing
-For now, please just try to keep the current style if you make any changes, and (once I have some unit tests in place) add/modify unit tests as needed.
-
-A JSCS config file will be added soon.
+Please stick to the JSCS style guide included, and (once I have some unit tests in place) add/modify unit tests as needed.
 
 ## License
 Copyright (c) 2016 Ken Herbert  
