@@ -12,6 +12,7 @@
   "license": "MIT",
   "main": "src/is-abn.js",
   "scripts": {
-    "jscs": "jscs src/*.js"
+    "jscs": "jscs src/*.js",
+    "test": "npm run jscs"
   }
 }
