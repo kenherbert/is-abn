@@ -1,10 +1,10 @@
 # is-abn
 
-Client-side validation for Australian Business Numbers.
+Validation for Australian Business Numbers.
 
 ## Installation
 
-Just download and include via script.
+is-abn supports use from both the browser and as a node module. In either case just import /src/is-abn.js however you normally would.
 
 ## Browser Compatibility
 - Chrome 5+
@@ -13,9 +13,16 @@ Just download and include via script.
 - Opera 10.50+
 - Safari 4.0.5+
 
+## Future Todo
+- Support older browsers
+- Add unit tests
+- Add JSCS style guide
+- Build/minify source
+
 ## Contributing
-There probably isn't a need for a styleguide for such a small project, so please just try to keep the current style if you make any changes, and (once I have some unit tests in place) add/modify unit tests as needed.
-If there is a need for a defined styleguide I will add one when the need arises.
+For now, please just try to keep the current style if you make any changes, and (once I have some unit tests in place) add/modify unit tests as needed.
+
+A JSCS config file will be added soon.
 
 ## License
 Copyright (c) 2016 Ken Herbert  
