@@ -5,7 +5,7 @@ Validation for Australian Business Numbers.
 
 ## Installation
 
-is-abn supports use from both the browser and as a node module. In either case just import /src/is-abn.js however you normally would.
+is-abn supports use from both the browser and as a node module. In either case just import `/dist/is-abn.js` or `/dist is-abn.min.js` however you normally would.
 
 ## Browser Compatibility
 - Chrome 5+
@@ -17,7 +17,7 @@ is-abn supports use from both the browser and as a node module. In either case j
 ## Future Todo
 - Support older browsers
 - Add unit tests
-- Build/minify source
+- Finish setting up build process
 
 ## Contributing
 Please stick to the JSCS style guide included, and (once I have some unit tests in place) add/modify unit tests as needed.
