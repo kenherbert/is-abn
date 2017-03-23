@@ -15,9 +15,10 @@ is-abn supports use from both the browser and as a node module. In either case j
 - Safari 4.0.5+
 
 ## Future Todo
-- Support older browsers
+- Support older browsers?
 - Add unit tests
 - Finish setting up build process
+- Document accepted formats
 
 ## Contributing
 Please stick to the JSCS style guide included, and (once I have some unit tests in place) add/modify unit tests as needed.
