@@ -8,7 +8,7 @@
             return false;
         }
 
-        var abnStr = input.replace(' ', '');
+        var abnStr = input.replace(/\s/g, '');
 
         if(abnStr.length !== 11) {
             return false;
