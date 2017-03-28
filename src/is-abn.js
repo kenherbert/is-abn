@@ -18,6 +18,10 @@
         var weight = [10, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19];
 
         var total = abn.reduce(function(prev, curr, i) {
+            if(i === 0) {
+                curr--;
+            }
+
             return prev + (parseInt(curr, 10) * weight[i]);
         }, 0);
 
