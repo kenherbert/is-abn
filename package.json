@@ -2,9 +2,15 @@
   "name": "is-abn",
   "description": "Australian Business Number validation",
   "version": "0.1.0",
-  "keywords": ["abn", "form", "validation"],
+  "keywords": [
+    "abn",
+    "form",
+    "validation"
+  ],
   "homepage": "https://github.com/thefallofbecause/is-abn",
-  "authors": ["Ken Herbert <thefallofbecause@gmail.com>"],
+  "authors": [
+    "Ken Herbert <thefallofbecause@gmail.com>"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/thefallofbecause/is-abn.git"
