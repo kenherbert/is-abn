@@ -207,7 +207,7 @@
         "prefer-arrow-callback": "off",
         "prefer-const": "error",
         "prefer-spread": "error",
-        "prefer-template": "error",
+        "prefer-template": "off",
         "quotes": ["error", "single", {"allowTemplateLiterals": true}],
         "radix": "error",
         "rest-spread-spacing": "error",
