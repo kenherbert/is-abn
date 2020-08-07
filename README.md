@@ -33,7 +33,7 @@ Error codes:
 | 4    | ABN is more than 11 digits in length           |
 | 5    | ABN is not valid                               |
 
-If vernose is not set, the function simply returns a true/false value.
+If verbose is not set, the function simply returns a true/false value.
 
 ## Browser Compatibility
 - Chrome 5+
