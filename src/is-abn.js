@@ -5,6 +5,8 @@
     var context = this;
 
     function isABN(input, strictFormat) {
+        input = String(input);
+
         if(strictFormat && !(/^\d{2} \d{3} \d{3} \d{3}$/).test(input)) {
             return false;
         }
