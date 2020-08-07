@@ -1,10 +1,11 @@
-'use strict';
-
+/*global module, exports */
 (function() {
+    'use strict';
+
     var context = this;
 
     function isABN(input, strictFormat) {
-        if(strictFormat && !/^\d{2} \d{3} \d{3} \d{3}$/.test(input)) {
+        if(strictFormat && !(/^\d{2} \d{3} \d{3} \d{3}$/).test(input)) {
             return false;
         }
 
