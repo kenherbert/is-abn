@@ -67,7 +67,7 @@
                     success: true,
                     code: 0,
                     description: 'ABN is valid'
-                }
+                };
             } else {
                 return true;
             }
